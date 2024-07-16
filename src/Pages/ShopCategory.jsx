@@ -8,6 +8,7 @@ const ShopCategory = (props) => {
     <div >
 <img src={props.banner} alt="" />
 <h1>{props.category}</h1>
+<h2>{all_products}</h2>
     </div>
   )
 }
