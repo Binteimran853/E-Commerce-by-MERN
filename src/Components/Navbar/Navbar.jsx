@@ -19,7 +19,7 @@ const Navbar = () => {
         <li onClick={() => { setCatagory("Kids") }}><Link to='/kid' style={{ textDecoration: 'none', color: 'black' }}>Kids</Link>{select_catagory == "Kids" ? <hr /> : <></>}</li>
       </ul>
       <div className="login-btn">
-        <Link to='/login'><button type="button" className='button' style={{ textDecoration: 'none', color: 'black' }}>Login</button></Link>
+        <Link to='/login' ><button type="button" className='button' onClick={()=>{setCatagory("Login")}}    style={{ textDecoration: 'none', color: 'black' }}>Login</button>{select_catagory==="Login"? <></>:<></>}</Link>
         <Link to='/cart'> <img src={cart} className='cart-logo' /></Link>
         <div className="cart-count">0</div>
       </div>
