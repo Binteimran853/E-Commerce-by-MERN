@@ -20,7 +20,7 @@ function App() {
         <Navbar />
         < Routes>
           {/* in Route path and Link of in Navbar that have to='' must be same   */}
-          <Route path='/shop' element={<Shop />} />
+          <Route path='/' element={<Shop />} />
           <Route path='/men' element={<ShopCategory banner={men_banner} category="men" />} />
           <Route path='/women' element={<ShopCategory banner={women_banner} category="women" />} />
           <Route path='/kid' element={<ShopCategory banner={kids_banner} category="kid" />} />

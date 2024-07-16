@@ -13,7 +13,7 @@ const Navbar = () => {
         <h1>Shopper</h1>
       </div>
       <ul className='nav-menu'>
-        <li onClick={() => { setCatagory("Shop") }}><Link to='/shop' style={{ textDecoration: 'none', color: 'black' }} >Shop</Link>{select_catagory == "Shop" ? <hr /> : <></>}</li>
+        <li onClick={() => { setCatagory("Shop") }}><Link to='/' style={{ textDecoration: 'none', color: 'black' }} >Shop</Link>{select_catagory == "Shop" ? <hr /> : <></>}</li>
         <li onClick={() => { setCatagory("Men") }}><Link to='/men' style={{ textDecoration: 'none', color: 'black' }}>Men</Link>{select_catagory == "Men" ? <hr /> : <></>}</li>
         <li onClick={() => { setCatagory("Women") }}><Link to='/women' style={{ textDecoration: 'none', color: 'black' }}>Women</Link>{select_catagory == "Women" ? <hr /> : <></>}</li>
         <li onClick={() => { setCatagory("Kids") }}><Link to='/kid' style={{ textDecoration: 'none', color: 'black' }}>Kids</Link>{select_catagory == "Kids" ? <hr /> : <></>}</li>
